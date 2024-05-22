@@ -1,7 +1,3 @@
-primaryColor="#85b7b4"
-backgroundColor="#edefef"
-secondaryBackgroundColor="#a2d7e0"
-textColor="#1c1b1b"
 
 import streamlit as st
 import pickle
