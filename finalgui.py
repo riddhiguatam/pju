@@ -81,7 +81,7 @@ elif page == "SMS Detection":
         st.write(f"Accuracy of {selected_model}: {accuracy:.2f}")
 
     if st.button("Return to Home"):
-        st.write("http://localhost:8502stre/?page=Home")
+        st.write("http://localhost:8501stre/?page=Home")
 
 elif page == "Email Detection":
     st.header("Email Spam Classifier")
@@ -112,6 +112,6 @@ elif page == "Email Detection":
         st.write(f"Accuracy of {selected_model}: {accuracy:.2f}")
 
     if st.button("Return to Home"):
-        st.write("http://localhost:8502/?page=Home")
+        st.write("http://localhost:8501/?page=Home")
 
 
